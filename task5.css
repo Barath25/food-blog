@@ -1,0 +1,254 @@
+.grid{
+	display: grid;
+	width: 100%;
+	height: 100vw;
+	grid-template-areas: 'grid1 grid1 grid2 grid3'
+						 'grid1 grid1 grid2 grid3'
+						 'grid1 grid1 grid2 grid3';
+	column-gap: 15px;
+	background-color: black;
+}
+.grid1,.grid2,.grid3{
+	border: 1px solid transparent;
+	font-family:'Poppins', sans-serif; ;
+}
+.grid1{
+	grid-area: grid1;
+	margin:20px;
+	background-color: whitesmoke;
+	width: 980px;
+}
+.grid1 .g1{
+	background-color: lightgrey;
+	height: 400px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.grid1 .g1 .g11{
+	margin: 10px;
+	margin-left: 690px ;
+	margin-top: -50px;
+	height: 50px;
+	width: 250px;
+}
+.grid1 .g1 .g11 ul{
+	list-style-type: none;
+}
+.grid1 .g1 .g11 ul li{
+	display: inline-block;
+	width: 80px;
+	text-align: center;
+	padding: 5px 10px;
+	margin-left: -5px;
+	margin-top: 10px;
+}
+.grid1 .g1 .g11 ul li:hover{
+	background-color: black;
+	color: whitesmoke;
+}
+.grid1 .g1 .g12{
+	margin: 10px;
+	height: 70px;
+	width: 410px;
+	margin-left: -5px;
+}
+.grid1 .g1 .g12 ul{
+	list-style-type: none;
+}
+.grid1 .g1 .g12 ul li{
+	display: block;
+	text-align: left;
+	padding: 5px 10px;
+	padding-left: 5px;
+	margin-left: -40px;
+	border-top: 0.5px solid black;
+	border-bottom: 0.5px solid black;
+}
+.grid1 .g1 .g13{
+	margin: 10px;
+	height: 70px;
+	width: 250px;
+	margin-left: 420px;
+	margin-top: -85px;
+}
+.grid1 .g1 .g13 ul{
+	list-style-type: none;
+}
+.grid1 .g1 .g13 ul li{
+	display: block;
+	text-align: left;
+	padding: 5px 10px;
+	margin-left: -40px;
+	padding-left: 5px;
+	border-top: 0.5px solid black;
+	border-bottom: 0.5px solid black;
+	border-collapse: collapse;
+}
+.grid1 .g1 .g14{
+	margin: 10px;
+	height: 70px;
+	width: 250px;
+	margin-left: 690px;
+	margin-top: -85px;
+}
+.grid1 .g1 .g14 ul{
+	list-style-type: none;
+}
+.grid1 .g1 .g14 ul li{
+	display: block;
+	text-align: left;
+	padding: 5px 10px;
+	margin-left: -40px;
+	padding-left: 5px;
+	border-top: 0.5px solid black;
+	border-bottom: 0.5px solid black;
+	border-collapse: collapse;
+}
+.sp1{
+	position: absolute;
+	margin-left: 230px;
+}
+.g15{
+	font-size: 10px;
+	padding-bottom: 15px;
+	margin:20px;
+	margin-left:100px;
+	width: 400px;
+	height: 500px;
+	margin-top: 0px;
+}
+.s3{
+	position: absolute;
+	background: url("https://media.gettyimages.com/id/1305516603/photo/shahi-paneer-or-paneer-kadai.jpg?s=612x612&w=gi&k=20&c=H41lV8VHeHHGTlljdfqLCoo733P0tta-3EUnxjtZ5Hg=");
+	background-size: 400px 300px;
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 400px;
+	margin-top: -30px;
+	margin-left: 540px;
+}
+.g15 h6{
+	color: darkgrey;
+}
+.sp3{
+	position: absolute;
+	margin-left: 380px;
+	margin-top: -50px;
+}
+.g16{
+	width: 400px;
+	height: 700px;
+	margin-left: 55px;
+	margin-top: -200px;
+}
+.s4{
+	position: relative;
+	background: url("https://wallpapercave.com/wp/wp3495545.jpg");
+	background-size: 400px 300px;
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 400px;
+	margin-left: 0px;
+}
+.g17{
+	position: absolute;
+	height: 200px;
+	width: 150px;
+	margin-top:-700px;
+	margin-left: 540px;
+	font-size: 15px;
+}
+.s5{
+	position: absolute;
+	height: 200px;
+	width: 150px;
+	margin-top:-700px;
+	margin-left: 700px;	
+}	
+
+.grid2{
+	grid-area: grid2;
+	margin: 20px;
+	margin-left: -10px;
+	width: 210px;
+	background-color: whitesmoke;
+}
+.grid2 .g2{
+	background-color: lightgrey;
+	height: 600px;
+	padding: 10px;
+}
+.sp2{
+	position: absolute;
+	margin-top: -57px;
+	margin-left: 175px;
+}
+.sp4{
+	position: absolute;
+	margin-top: -70px;
+	margin-left: 150px;
+}
+.g2 h3{
+	padding: 20px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	border-bottom: 3px solid black;
+}
+.g2 .s2{
+	background: url("https://media.gettyimages.com/id/1305516603/photo/shahi-paneer-or-paneer-kadai.jpg?s=612x612&w=gi&k=20&c=H41lV8VHeHHGTlljdfqLCoo733P0tta-3EUnxjtZ5Hg=");
+	background-size: 200px 250px;
+	background-repeat: no-repeat;
+	height: 250px;
+	width: 200px;
+	margin-top: -35px;
+}
+.g2 p{
+	font-size: 10px;
+	padding-bottom: 15px;
+	border-bottom: 3px solid black;
+}
+.g2 h6{
+	color: darkgrey;
+}
+.g21{
+	padding: 10px;
+}
+.grid3{
+	grid-area: grid3;
+	margin: 20px;
+	margin-left: -5px;
+	margin-right: 25px;
+	width: 205px;
+	background-color: whitesmoke;
+	padding: 10px;
+}
+.g3{
+	height: 500px;
+}
+.g3 h6{
+	color: darkgrey;
+}
+.g3 p{
+	padding-bottom: 20px;
+	border-bottom: 3px solid black;
+}
+.g31{
+	margin: 10px;
+}
+.g31 .s1{
+	background: url("https://wallpapercave.com/wp/wp3495545.jpg");
+	background-size: 200px 300px;
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 200px;
+	margin-left: -10px;
+}
+.g31 h2{
+	position: relative;
+	margin-top: 50px;
+}
+.g31 p{
+	color: darkgrey;
+}
